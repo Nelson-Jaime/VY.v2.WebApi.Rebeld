@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.v2.WebApi.Rebeld.Dtos\VY.v2.WebApi.Rebeld.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.v2.WebApi.Rebeld.Business.Contracts\VY.v2.WebApi.Rebeld.Business.Contracts.csproj" />
+    <ProjectReference Include="..\VY.v2.WebApi.Rebeld.Data.Contracts\VY.v2.WebApi.Rebeld.Data.Contracts.csproj" />
+    <ProjectReference Include="..\VY.v2.WebApi.Rebeld.Data.Impl\VY.v2.WebApi.Rebeld.Data.Impl.csproj" />
+  </ItemGroup>
+
+</Project>
